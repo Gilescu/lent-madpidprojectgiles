@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="aG[U;.$Y[O0SQ*/M0qb!" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="jFj$k}03U0!3;~PlnumX"><value name="color"><shadow type="colorindexpicker" id="Ih:hBHk,:WRqa.94r1aI"><field name="index">2</field></shadow></value><next><block type="gamesetbackgroundimage" id="+$nW-fuWPGNYz8mw_s@~"><value name="img"><shadow type="background_image_picker" id="s?Xe[G#o`h/3-{IPk^i["><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Bo_D4bw$Je`YwV)ppE63">mySprite</variable><variable type="KIND_SpriteKind" id="UVZ9PMKJc{Nsl`B93:ZG">Player</variable><variable type="KIND_SpriteKind" id="3Uj1.~0D0np).I/cS%wP">Projectile</variable><variable type="KIND_SpriteKind" id="ZHWf0Cd;08*9MMP)3(rZ">Food</variable><variable type="KIND_SpriteKind" id="{Bw!Sqt{EV__aG~4jV44">Enemy</variable></variables><block type="pxt-on-start" id="aG[U;.$Y[O0SQ*/M0qb!" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="jFj$k}03U0!3;~PlnumX"><value name="color"><shadow type="colorindexpicker" id="Ih:hBHk,:WRqa.94r1aI"><field name="index">2</field></shadow></value><next><block type="gamesetbackgroundimage" id="+$nW-fuWPGNYz8mw_s@~"><value name="img"><shadow type="background_image_picker" id="s?Xe[G#o`h/3-{IPk^i["><field name="img">img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -119,4 +119,21 @@
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`</field></shadow></value></block></next></block></statement></block></xml>
+`</field></shadow></value><next><block type="variables_set" id="|+Fp7fD4CDyy]d!j],(T"><field name="VAR" id="Bo_D4bw$Je`YwV)ppE63">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="wmrKd-dnF$D*?CY?,0{q"><value name="img"><shadow type="screen_image_picker" id="1^tgB/|1n8E)_GHJ)P!2"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. 8 8 8 8 8 8 8 8 8 8 8 . . . . 
+. 8 8 8 8 8 8 8 8 8 8 8 . . . . 
+. 8 8 8 8 8 8 8 8 8 8 8 . . . . 
+. 8 8 8 8 8 8 8 8 8 8 8 . . . . 
+. 8 8 8 8 8 8 8 8 8 8 8 . . . . 
+. 8 8 8 8 8 8 8 8 8 8 8 . . . . 
+. 8 8 8 8 8 8 8 8 8 8 8 . . . . 
+. 8 8 8 8 8 8 8 8 8 8 8 . . . . 
+. 8 8 8 8 8 8 8 8 8 8 8 . . . . 
+. 8 8 8 8 8 8 8 8 8 8 8 . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="7%.mGH}WWUx]Jcm%5{Xh"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="^I=%ONKd^o)mF}Tv!v?d"><value name="sprite"><block type="variables_get" id="u(b8S~M.=2oBTDl^esQ$"><field name="VAR" id="Bo_D4bw$Je`YwV)ppE63">mySprite</field></block></value><value name="x"><shadow type="positionPicker" id="i|Oc=7re_fHl{#SWc!xt"><field name="index">27</field></shadow></value><value name="y"><shadow type="positionPicker" id="Af|%?d~n)@Zl;NOmGpyl"><field name="index">100</field></shadow></value></block></next></block></next></block></next></block></statement></block></xml>
