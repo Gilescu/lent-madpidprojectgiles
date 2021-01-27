@@ -1,6 +1,10 @@
-controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
+controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
+    mySprite.setVelocity(0, -50)
+})
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 	
 })
+let mySprite: Sprite = null
 scene.setBackgroundImage(img`
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -123,7 +127,7 @@ scene.setBackgroundImage(img`
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
     `)
-let mySprite = sprites.create(img`
+mySprite = sprites.create(img`
     3 3 3 3 3 3 3 3 3 3 3 . . . . . 
     3 3 3 3 3 3 3 3 3 3 3 . . . . . 
     3 3 3 3 3 3 3 3 3 3 3 . . . . . 
