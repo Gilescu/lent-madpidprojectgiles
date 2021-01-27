@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="BBvv{dPY^/dz`aUty#0X" x="10" y="30"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="CAOQt@F*i.8FhBdT2!,X"><value name="img"><shadow type="background_image_picker" id="x2mR{_ko!IqW)o_C.Yoz"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="BBvv{dPY^/dz`aUty#0X" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="CAOQt@F*i.8FhBdT2!,X"><value name="img"><shadow type="background_image_picker" id="x2mR{_ko!IqW)o_C.Yoz"><field name="img">img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
