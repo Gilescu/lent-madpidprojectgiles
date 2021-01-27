@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="BBvv{dPY^/dz`aUty#0X" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="CAOQt@F*i.8FhBdT2!,X"><value name="img"><shadow type="background_image_picker" id="x2mR{_ko!IqW)o_C.Yoz"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id=".20)v!U|zc`dh)1Hub#i">Player</variable><variable type="KIND_SpriteKind" id="hOZ9jr-kI3L?QUQ~~CL|">Projectile</variable><variable type="KIND_SpriteKind" id="+q5lHh`MA`(@6Ey@ekMt">Food</variable><variable type="KIND_SpriteKind" id="8_[GeK{0J)Y6eU3K/1KV">Enemy</variable><variable id="z3J*aLqp;Yf_o|LxuAL:">mySprite</variable><variable id=";bPfR%0frj:Ze;xVo[%;">value</variable><variable id="vndbAxYT+xqv3o*SpC1A">list</variable></variables><block type="pxt-on-start" id="BBvv{dPY^/dz`aUty#0X" x="30" y="30"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="CAOQt@F*i.8FhBdT2!,X"><value name="img"><shadow type="background_image_picker" id="x2mR{_ko!IqW)o_C.Yoz"><field name="img">img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -119,4 +119,21 @@ fffff555555555555555555555555555555fffff5555555555555555555555555555555555555555
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><next><block type="variables_set" id="2GK)SsrU?vHj52I#@@ya"><field name="VAR" id="z3J*aLqp;Yf_o|LxuAL:">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="xJ1J8+Ev.?6W;7eL_JRS"><value name="img"><shadow type="screen_image_picker" id="qJ7qMMSS#!#j]zi|X3X{"><field name="img">img`
+3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image5"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="eYJWOYy9O4P,6%CbfCeR"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="0PMsY/bX|}o(-7Rp/WUg"><value name="sprite"><block type="variables_get" id="nhenSM%6=7lGu3!$q7wU"><field name="VAR" id="z3J*aLqp;Yf_o|LxuAL:">mySprite</field></block></value><value name="x"><shadow type="positionPicker" id="NPwE+-..vyJ+]EKmtMJU"><field name="index">30</field></shadow></value><value name="y"><shadow type="positionPicker" id="I]$3369Knu5aj]zt[yC]"><field name="index">106</field></shadow></value></block></next></block></next></block></statement></block><block type="keyonevent" id=";{wDDf!_@Xw)Jo@Yauy?" x="130" y="310"><field name="button">controller.right</field><field name="event">ControllerButtonEvent.Pressed</field></block></xml>

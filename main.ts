@@ -1,3 +1,6 @@
+controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
+	
+})
 scene.setBackgroundImage(img`
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -120,3 +123,22 @@ scene.setBackgroundImage(img`
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
     `)
+let mySprite = sprites.create(img`
+    3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+    3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+    3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+    3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+    3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+    3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+    3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+    3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+    3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+    3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+    3 3 3 3 3 3 3 3 3 3 3 . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    `, SpriteKind.Player)
+mySprite.setPosition(30, 106)
