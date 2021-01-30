@@ -152,3 +152,4 @@ mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
 mySprite.setPosition(30, 106)
+tiles.setWallAt(tiles.getTileLocation(25, 254), true)
