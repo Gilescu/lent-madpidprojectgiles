@@ -1,11 +1,14 @@
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite.setVelocity(0, -50)
 })
-controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-	
+controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
+    mySprite.setVelocity(-50, 0)
+})
+controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
+    mySprite.setVelocity(50, 0)
 })
 controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
-    mySprite.setVelocity(50, 50)
+    mySprite.setVelocity(0, 50)
 })
 let mySprite: Sprite = null
 scene.setBackgroundImage(img`
