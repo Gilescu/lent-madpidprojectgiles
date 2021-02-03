@@ -1,6 +1,9 @@
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite.setVelocity(0, -50)
 })
+scene.onHitWall(SpriteKind.Player, function (sprite, location) {
+	
+})
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite.setVelocity(-50, 0)
 })
@@ -9,6 +12,9 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite.setVelocity(0, 50)
+})
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Player, function (sprite, otherSprite) {
+	
 })
 let mySprite: Sprite = null
 scene.setBackgroundImage(img`
